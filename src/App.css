@@ -44,3 +44,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.programs__svg {
+  color: white;
+}

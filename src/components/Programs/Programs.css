@@ -14,3 +14,18 @@
   text-transform: uppercase;
   font-style: italic;
 }
+
+.programs-categories {
+  display: flex;
+  gap: 1rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding: 2rem;
+  gap: 1rem;
+  color: white !important;
+  justify-content: space-between;
+}
