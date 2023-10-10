@@ -139,6 +139,7 @@
   top: 10rem;
   right: 8rem;
   width: 23rem;
+  z-index: 2;
 }
 
 .hero-image-back {
@@ -150,8 +151,8 @@
 .hero-image-back {
   position: absolute;
   top: 4rem;
-  right: 20rem;
-  z-index: -1;
+  right: 21rem;
+  z-index: 0;
   width: 15rem;
 }
 
