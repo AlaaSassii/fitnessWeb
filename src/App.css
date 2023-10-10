@@ -7,11 +7,7 @@
   --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
   --appColor: #3c3f45;
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 body {
   padding: 0;
   margin: 0;
