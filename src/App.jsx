@@ -3,7 +3,7 @@ import Hero from "./components/Hero/Hero";
 
 const App = () => {
   return (
-    <div style={{ background: "red" }}>
+    <div style={{ background: "gray" }}>
       <Hero />
     </div>
   );
