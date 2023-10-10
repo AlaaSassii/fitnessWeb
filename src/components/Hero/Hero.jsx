@@ -11,6 +11,7 @@ const Hero = () => {
           <span>the best fitness club in the town</span>
         </div>
       </div>
+
       <div className='right-h'>right</div>
     </div>
   );
