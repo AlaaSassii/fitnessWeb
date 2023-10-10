@@ -9,7 +9,23 @@ import adidas from "../../assets/adidas.png";
 import nike from "../../assets/nike.png";
 import tick from "../../assets/tick.png";
 const Reasons = () => {
-  return <div className='Reasons' id='reasons'></div>;
+  return (
+    <div className='Reasons' id='reasons'>
+      <div className='left-r'>
+        <img src={image1} alt='' />
+        <img src={image2} alt='' />
+        <img src={image3} alt='' />
+        <img src={image4} alt='' />
+      </div>
+      <div className='  '>
+        <span>some reasons</span>
+        <div>
+          <span className='stoke-text'>why</span>
+          <span>choose us?!</span>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Reasons;
