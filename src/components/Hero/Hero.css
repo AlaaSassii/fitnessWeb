@@ -102,7 +102,7 @@
   background-color: var(--orange);
 }
 
-.right-h > btn {
+.right-h > .btn {
   position: absolute;
   right: 3rem;
   top: 2rem;
