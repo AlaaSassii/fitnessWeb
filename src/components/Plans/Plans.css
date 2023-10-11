@@ -1,0 +1,17 @@
+.plans-container {
+  padding: 0 2rem;
+  display: flex;
+  width: 100%;
+}
+
+.program-header {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: auto;
+}
+.program-header > span {
+}
