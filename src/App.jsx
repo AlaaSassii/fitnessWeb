@@ -5,6 +5,7 @@ import Reasons from "./components/Reasons/Reasons";
 import Plans from "./components/Plans/Plans";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Join from "./components/Join/Join";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       <Reasons />
       <Plans />
       <Testimonials />
-      <Join />
+      {/* <Join /> */}
+      <Footer />
     </div>
   );
 };
