@@ -94,3 +94,22 @@
   top: 10rem;
   right: 0;
 }
+
+@media (max-width: 768px) {
+  .plans {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5rem;
+    transform: translate(-1.2rem);
+  }
+  .program-header {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    transform: translate(-2.2rem);
+  }
+}
