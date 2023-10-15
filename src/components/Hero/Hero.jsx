@@ -7,6 +7,7 @@ import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 
 const Hero = () => {
+  const transition = { type: "spring", duration: 3 };
   return (
     <div className='hero '>
       <div className='blur hero-blur'></div>
